@@ -1,3 +1,6 @@
+#All abilities are the intellectual property of Jagex Ltd.
+#Program copyright 2016 Hebisonic
+
 import math
 import time
 
@@ -5,7 +8,7 @@ start_time = time.process_time()
 
 #format: (cooldown in ticks, average ability dmg as percentage, duration in ticks)
 
-abilities = {                                            #dictionary of all abilities with their cooldowns, average dmg, and duration
+abilities = {                   #dictionary of all abilities with their cooldowns, average dmg, and duration
         "sever"                 : (25, 112.8, 3),       
         'slice'                 : (5, 75, 3),           
         "dismember"             : (25, 120.6, 3),       
